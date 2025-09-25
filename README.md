@@ -103,4 +103,10 @@ This makes it easy to add or edit client data manually if necessary.
 
 ```
 
- ```
+ ``
+## 📎 روابط مفيدة
+
+- [صفحة المشروعBank Management System على GitHub](https://github.com/InfoSecNazir/Bank-Management-CLI)
+- [صفحة المشروع ATNS_ystemعلى GitHub](https://github.com/InfoSecNazir/ATM_Core_System)
+`
+
