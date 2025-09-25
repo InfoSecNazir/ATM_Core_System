@@ -105,5 +105,5 @@ Account_Number||PinCode||Name||Phone_Number||Balance
 ## 📎 روابط مفيدة
 
 - [صفحة المشروعBank Management System على GitHub](https://github.com/InfoSecNazir/Bank-Management-CLI)
-- [صفحة المشروع ATNS_ystemعلى GitHub](https://github.com/InfoSecNazir/ATM_Core_System)
+- [صفحة المشروع ATNS_ mعلى GitHub](https://github.com/InfoSecNazir/ATM_Core_System)
  
