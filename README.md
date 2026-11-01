@@ -1,109 +1,40 @@
- 
-# 🏧 Simple ATM System (C++)
+# ATM_Core_System
 
-This project is a **simple ATM (Automated Teller Machine) simulation** that runs on the console.  
-It is developed using **C++** and focuses on the core functionalities expected from a real ATM.  
-Customer data and account balances are stored in a text file (`Cilent.txt`) to ensure data persistence between sessions.
+[English](README.md) · [العربية](README_AR.md) · [File index](docs/INDEX.md)
 
----
+Educational C++ console ATM simulation with withdrawals, deposits, and text-file persistence.
 
-## 🚀 Features
+## Repository contents
 
-- **Secure Login System**  
-  Requires the user to enter the **Account Number** and **PIN Code** to access their account.  
+- [ATM-CLI.cpp](ATM-CLI.cpp)
 
-- **Quick Withdraw**  
-  Provides a list of predefined amounts (e.g., `20`, `50`, `100`) for fast withdrawal.  
+## Setup and use
 
-- **Normal Withdraw**  
-  Allows the user to enter a custom amount (must be a multiple of 5).  
+From a Visual Studio Developer Command Prompt:
 
-- **Deposit**  
-  Enables the user to deposit money into their account.  
-
-- **Check Balance**  
-  Displays the current account balance.  
-
-- **Logout**  
-  Safely logs the user out and returns to the login screen.  
-
-- **Data Persistence**  
-  All changes are saved automatically into the `Cilent.txt` file.  
-
----
-
-## 🛠️ Installation & Run
-
-You will need a **C++ compiler** such as `g++` or **MinGW**.  
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-````
-
-### 2. Navigate into the project folder
-
-```bash
-cd your-repository-name
-```
-
-### 3. Compile the code
-
-```bash
-g++ main.cpp -o atm
-```
-
-> Replace `main.cpp` with the actual file name if different.
-
-### 4. Create the data file
-
-Before running the program for the first time, create a file named **`Cilent.txt`** in the same folder.
-Add some initial customer data using this format:
-
-```
-Account_Number||PinCode||Name||Phone_Number||Balance
-```
-
-**Example:**
-
-```
-A1001||1234||Ali Hassan||0501234567||5000
-A1002||5555||Fatima Ahmed||0559876543||8250.5
-```
-
-### 5. Run the program
-
-* On **Windows**:
-
-```bash
+```bat
+cl /EHsc /std:c++17 ATM-CLI.cpp /Fe:atm.exe
 atm.exe
 ```
 
-* On **Linux / macOS**:
+The source reads `Cilent.txt` from its working directory. Supply fictional account records matching the parser before attempting to log in.
 
-```bash
-./atm
-```
+The console code uses Windows commands such as `cls` or `pause`; Windows is the intended environment. Build commands below describe the source entry point and have not been compiled as part of this documentation update.
 
----
+## Notes
 
-## 📂 Data File Structure
+This is a learning simulation with text-file account storage, not a production banking system.
 
-* File name: **Cilent.txt**
-* Each line represents a single client.
-* Fields are separated using `||`.
+[Previous documentation and additional details](README_DETAILS.md)
 
-**Format:**
+## License
 
-```
-Account_Number||PinCode||Name||Phone_Number||Balance
-```
+The repository currently has no root license file. This documentation does not assign a new license.
 
- 
+## Contributing and navigation
 
- 
-## 📎 روابط مفيدة
+[CONTRIBUTING.md](CONTRIBUTING.md) · [Documentation index](docs/INDEX.md) · [Public project index](https://github.com/InfoSecNazir/InfoSecNazir/blob/main/PROJECTS.md)
 
-- [صفحة المشروعBank Management System على GitHub](https://github.com/InfoSecNazir/Bank-Management-CLI)
-- [صفحة المشروع ATNS_Systemعلى GitHub](https://github.com/InfoSecNazir/ATM_Core_System)
- 
+## Verification scope
+
+Repository organization checked file paths, documentation links, and available dependency manifests. This update did not run or deploy the application.
